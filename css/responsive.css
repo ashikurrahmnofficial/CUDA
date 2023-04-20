@@ -1,0 +1,65 @@
+
+@media screen and (max-width: 998px){
+	.first_half{
+		width: 100%;
+		float: none;
+	}
+	.second_half{
+		width: 100%;
+		float: none;
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+	.message label {
+		top: 50px;
+	}
+}
+
+@media screen and (max-width: 980px){
+	 .nav{
+	 	display: none;
+	 }
+	 .nav ul{
+	 	text-align: center;
+	 }
+	 .nav ul li{
+	 	display: block;
+	 	text-align: center;
+	 	width: 200px;
+	 	margin: auto;
+	 }
+	 .mobile_menu_icon{
+	 	display: block;
+	 	float: right;
+	 	color: #fff;
+	 	font-size: 30px;
+	 	cursor: pointer;
+	 }
+	 .container{
+	 	width: 95%;
+	 }
+	 .single_team_box svg {
+		width: 10px !important;
+		height: 10px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.service_box{
+		width: 48%;
+	}
+	.single_team_box{
+		width: 48%;
+		margin-top: 30px;
+	}
+	.team_boxs {
+		margin-top: 50px;
+	}
+/*	.testimonial_image img {
+		width: 80px;
+		height: 80px;
+	}*/
+	.single_portfolio_box h2 {
+		font-weight: 80;
+	}
+}
